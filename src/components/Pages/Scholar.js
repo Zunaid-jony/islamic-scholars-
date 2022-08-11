@@ -36,7 +36,7 @@ const Scholar = () => {
             <tr>
               <th>SCHOLAR</th>
               <th>DATE</th>
-              <th>NAME</th>
+              <th> USER NAME</th>
               <th>EMAIL</th>
               <th>DELETE</th>
             </tr>

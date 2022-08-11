@@ -115,7 +115,8 @@ useEffect(()=>{
                       
                       style={{ backgroundColor: 'gainsboro' , width:'270px',textAlign:'center',marginLeft:'-22PX'}}> 
                         <div class="mb-3">
-                        <img class="img-fluid" alt="" style={{width:"90px", borderRadius: '50px',textAlign:'center'}} src={scholarImage} ></img>
+                        <img class="img-fluid" alt="" style={{width:"90px", borderRadius: '50px',textAlign:'center'}} src={scholarImage ?? 'https://i.ibb.co/L1kHbkD/bellhop.png'} ></img>
+                        {/* <img class="center" src={scholarImage ?? 'https://i.ibb.co/L1kHbkD/bellhop.png'}></img>  */}
 
 
                           <label for="exampleInputEmail1" class="form-label">
@@ -208,22 +209,22 @@ useEffect(()=>{
                <div table-reesponsive>
                    <table className="table">
                        <thead>
-                           <tr>
+                           {/* <tr>
                                <th>Scholar</th>
                                <th>DATE</th>
                                <th>NAME</th>
                                <th>EMAIL</th>
                                <th>DELETE</th>
-                           </tr>
+                           </tr> */}
                        </thead>
                        <tbody> 
-                           <ViewModalFinal 
+                           {/* <ViewModalFinal 
                            
                            books={books}
                            deleteBook={ deleteBook}
                            
                            
-                           ></ViewModalFinal>
+                           ></ViewModalFinal> */}
                        </tbody>
                         
                    </table>
