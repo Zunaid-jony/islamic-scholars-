@@ -7,7 +7,7 @@ const ServiceCard = ({card,setModal}) => {
     const {scholarImage,scholarName,nid,status, city,phone,_id} = card;
     // const url =`/view/${_id}`
     return (
-        <div className='cards contener'>
+        <div className='cards contener '>
             <img class="center" src={scholarImage ?? 'https://i.ibb.co/L1kHbkD/bellhop.png'}></img> 
 {/*          
          <img class="center" src={scholarImage ?? 'src="https://i.ibb.co/L1kHbkD/bellhop.png"'}></img>  */}

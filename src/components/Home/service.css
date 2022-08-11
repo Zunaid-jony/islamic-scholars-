@@ -10,3 +10,16 @@
 h1{
     text-align: center;
 }
+/* phone */
+@media screen and (max-width:600px){
+    .mainCard{
+        /* display: grid;
+        grid-template-columns: auto auto auto auto;
+       
+     
+        margin-top: 120px; */
+
+    }
+
+
+}

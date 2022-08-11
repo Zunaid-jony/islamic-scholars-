@@ -15,7 +15,8 @@ const Services = () => {
     return (
         <div>
             <h1 style={{textAlign: 'center'}}> 🅸🆂🅻🅰🅼🅸🅲 🆂🅲🅷🅾🅻🅰🆁🆂</h1>
-            <div className='mainCard container'>
+            <div className='mainCard container '>
+                {/* col-12 col-md-6 col-lg-4   col-4 col-sm-12*/}
                         
             {
                 services.map(card => <ServiceCard

@@ -21,11 +21,11 @@ const Header = () => {
           <Link className="navbar-brand" to="/">
           <img style={{width:'70px',height:'50px'}} src="https://i.ibb.co/zFn7x1j/24766669-indonesian-halal-logo-2022.jpg" alt="24766669-indonesian-halal-logo-2022" border="0"/>
           </Link>
-          <button
-            className="navbar-toggler"
+          <button 
+            className="navbar-toggler phone-scrin mt-2"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="/navbarNav"
+            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -67,7 +67,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link   className="nav-link" to="/cart">
-                   <BsCartCheck></BsCartCheck>  {totalItems}
+                   <BsCartCheck></BsCartCheck> <span style={{color:'white',backgroundColor: '#bb2d3b',fontSize:'12px',borderRadius:'30px',marginTop:'1px'}}> {totalItems}</span>
                 </Link>
               </li>
               <li className="nav-item">
