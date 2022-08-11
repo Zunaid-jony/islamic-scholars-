@@ -1,0 +1,22 @@
+section.hero{
+    margin: 5rem 0;
+}
+
+.text-libel,
+.text-hero-bold,
+.text-hero-regular{
+    margin: 24px 0;
+}
+.textaria{
+    margin-top: 150px;
+}
+.ab{
+    font-size: 25px;
+    color: gray;
+}
+.text-hero-regular{
+    color: gray;
+}
+
+
+
