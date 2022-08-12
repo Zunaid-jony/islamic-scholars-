@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ViewModalFinal from "./ViewModalFinal";
+import './View.css'
 
 // values of local storage
 
@@ -64,7 +65,7 @@ useEffect(()=>{
 
 },[books])
   return (
-    <div style={{ height: "300px" }}>
+    <div  className="abc" style={{ height: "300px" }}>
       {/* <button
         type="button"
         className="btn btn-primary"
@@ -106,10 +107,11 @@ useEffect(()=>{
                     <div className="col-lg-6">
                         {/* form */}
 
-                     <div className="from-section  justify-content-end">
+                     <div className="from-section  ">
                        {/* img */}
                       
                        <form 
+                       className="from-aria justify-content-center"
                        
                       onSubmit={handleAddBookSubmit}
                       
@@ -189,7 +191,7 @@ useEffect(()=>{
                         </div>
                         
                        
-                        <button style={{width:"260px"}} type="submit" class="btn btn-primary">
+                        <button style={{width:"260px"}} type="submit" class="btn btn-success">
                           Submit
                         </button>
                       </form>

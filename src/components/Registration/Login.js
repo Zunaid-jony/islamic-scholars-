@@ -34,7 +34,7 @@ const Login = () => {
                         <input type="password" className="form-control" id="exampleInputPassword1"/>
                     </div>
                    
-                    <button  style={{marginTop:'20px',width:'289px'}} type="button" class="btn btn-primary"> 
+                    <button  style={{marginTop:'20px',width:'289px'}} type="button" class="btn btn-success"> 
                <Link style={{color:'whitesmoke',textDecoration:'none'}} to='/'> Login </Link>
                
                </button>
@@ -42,7 +42,7 @@ const Login = () => {
                     <p className='text-center'>Or</p>
                    
 
-                    <button  style={{marginTop:'3px',width:'289px'}} type="button" class="btn btn-primary"> 
+                    <button  style={{marginTop:'3px',width:'289px'}} type="button" class="btn btn-success"> 
                <Link style={{color:'whitesmoke',textDecoration:'none'}} to='/'> <FcGoogle></FcGoogle> Google </Link>
                
                </button>

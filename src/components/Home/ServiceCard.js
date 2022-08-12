@@ -8,7 +8,7 @@ const ServiceCard = ({card,setModal}) => {
     return (
        <div className='col-11 col-md-6 col-lg-3 mx-0 mb-4'>
             <div className='card p-0 overflow-hidden h-100 shadow cards  '>
-            <img class="img-fluid" src={scholarImage ?? 'https://i.ibb.co/L1kHbkD/bellhop.png'}></img> 
+            <img class="img-fluid mt-5 mb-2" src={scholarImage ?? 'https://i.ibb.co/L1kHbkD/bellhop.png'}></img> 
 
          <h6>  {scholarName}</h6>
          <p >  {city}</p>
@@ -19,7 +19,7 @@ const ServiceCard = ({card,setModal}) => {
       
         onClick={() => setModal(card)}
         type="button"
-        className="btn btn-primary card-buttos  mx-auto mb-1"
+        className="btn btn-success card-buttos  mx-auto mb-1"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
         style={{alignItems:'center'}}

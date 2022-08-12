@@ -35,7 +35,7 @@ const CheckoutForm = () => {
             }}
             
             ></CardElement>
-            <button style={{width:'100%',marginRight: '20px'}} class="btn btn-primary" type='submit' disabled={!stripe}>
+            <button style={{width:'100%',marginRight: '20px'}} class="btn btn-success" type='submit' disabled={!stripe}>
                 pay
 
             </button>

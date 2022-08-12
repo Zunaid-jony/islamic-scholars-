@@ -42,7 +42,7 @@ const Information = () => {
                                  </div>
 
                                  <div className='cta'>
-                                     <a href='' className='btn btn-primary shadow-none'> Explore now</a>
+                                     <a href='' className='btn btn-success shadow-none'> Explore now</a>
                                      <a href='' className='btn btn-secondary shadow-none ms-3'> Explore now</a>
 
                                  </div>
@@ -93,7 +93,7 @@ const Information = () => {
                                  </div>
 
                                  <div className='cta'>
-                                     <a href='' className='btn btn-primary shadow-none'> Explore now</a>
+                                     <a href='' className='btn btn-success shadow-none'> Explore now</a>
                                      <a href='' className='btn btn-secondary shadow-none ms-3'> Explore now</a>
 
                                  </div>

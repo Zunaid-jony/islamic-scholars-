@@ -23,7 +23,7 @@ const Services = () => {
         // const currentposts = services.slice(firstPostIndex, lastPostIndex);
     return (
         <div>
-
+      <h1 style={{textAlign: 'center'}}> 🅸🆂🅻🅰🅼🅸🅲 🆂🅲🅷🅾🅻🅰🆁🆂</h1>
 
             <section className='py-4 container'>
             <div className='row justify-content-center '>
@@ -46,7 +46,7 @@ const Services = () => {
         }
 
             </section>
-            <h1 style={{textAlign: 'center'}}> 🅸🆂🅻🅰🅼🅸🅲 🆂🅲🅷🅾🅻🅰🆁🆂</h1>
+      
             
        
         </div>

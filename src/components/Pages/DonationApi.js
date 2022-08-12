@@ -4,7 +4,7 @@ const DonationApi = {
       id: 1,
       img: "https://i.ibb.co/715v32G/5836.jpg",
       description:
-        "Free education is education funded through government spending or charitable organizations rather than",
+        "Free education is education funded through government spending or charitable organizations rather than government spending ",
 
       title: "Free Education",
       price: "1000",
