@@ -7,11 +7,20 @@ const Services = () => {
 
         const [services, setService] = useState([])
         const[modal, setModal] = useState(null)
+
+        // pagination
+        // const [currentPage, setCurrentPage] = useState(1);
+        // const [postsPerPage, setPostsPerPage] = useState(10);
+
         useEffect(()=>{
             fetch('https://limitless-lowlands-32082.herokuapp.com/schedule')
             .then(responce => responce.json())
             .then(data => setService(data))
         },[])
+        // pagi
+        // const lastPostIndex = currentPage * postsPerPage;
+        // const firstPostIndex = lastPostIndex - postsPerPage;
+        // const currentposts = services.slice(firstPostIndex, lastPostIndex);
     return (
         <div>
             <h1 style={{textAlign: 'center'}}> 🅸🆂🅻🅰🅼🅸🅲 🆂🅲🅷🅾🅻🅰🆁🆂</h1>

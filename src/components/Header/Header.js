@@ -67,7 +67,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link   className="nav-link" to="/cart">
-                   <BsCartCheck></BsCartCheck> <span style={{color:'white',backgroundColor: '#bb2d3b',fontSize:'12px',borderRadius:'30px',marginTop:'1px'}}> {totalItems}</span>
+                   <BsCartCheck></BsCartCheck> <span className="mt-3" style={{color:'white',backgroundColor: '#bb2d3b',fontSize:'12px',borderRadius:'30px',marginTop:'1px'}}> {totalItems}</span>
                 </Link>
               </li>
               <li className="nav-item">

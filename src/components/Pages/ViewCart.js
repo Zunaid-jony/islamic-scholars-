@@ -82,7 +82,7 @@ const ViewCart = () => {
            <button className="btn btn-primary m-2">
                
               
-               <Link style={{color:'whitesmoke',textDecoration:'none'}} to='/pay'>  Buy New </Link>  
+               <Link style={{color:'whitesmoke',textDecoration:'none'}} to='/pay'>  Buy Now </Link>  
                </button>
            
        
