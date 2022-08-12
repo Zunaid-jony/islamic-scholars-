@@ -25,7 +25,7 @@ const ViewCart = () => {
             <br></br>
             <br></br>
             <section className="py-4  container addToCard" >
-      <div className="row justify-content-center">
+      <div className="row justify-content-center ">
         {/* item cart are sathe  */}
         
         <div className="col-4 col-sm-12">

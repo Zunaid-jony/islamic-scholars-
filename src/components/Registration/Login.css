@@ -17,3 +17,15 @@
     height: 649px;
     
 }
+@media (max-width:600px){
+    .bg{
+        
+        width: 90%;
+    }
+    .bg button{
+
+        margin-left: 20px;
+    }
+
+
+}

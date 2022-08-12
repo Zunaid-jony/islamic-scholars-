@@ -9,7 +9,11 @@ const stripePromise = loadStripe('pk_test_51LUZbMIqhxh87CUYWafDCf0kKoPFGP5J92pLT
 
 const DonationPay = () => {
     return (
-        <div className='container'>
+
+        <div className='container mt-5'>
+            <br></br>
+            <br></br>
+            <br></br>
                  
             <br></br>
             <img style={{width:'90%'}} src="https://i.ibb.co/vxRvsVf/333-3335493-follow-us-payment-method-icons-png.png" alt="333-3335493-follow-us-payment-method-icons-png" border="0"></img>

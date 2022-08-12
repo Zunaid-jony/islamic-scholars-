@@ -111,7 +111,7 @@ useEffect(()=>{
                        {/* img */}
                       
                        <form 
-                       className="from-aria justify-content-center"
+                       className="from-aria br-5"
                        
                       onSubmit={handleAddBookSubmit}
                       
@@ -191,7 +191,7 @@ useEffect(()=>{
                         </div>
                         
                        
-                        <button style={{width:"260px"}} type="submit" class="btn btn-success">
+                        <button style={{width:"260px"}} type="submit" class="btn btn-success mt-3">
                           Submit
                         </button>
                       </form>
