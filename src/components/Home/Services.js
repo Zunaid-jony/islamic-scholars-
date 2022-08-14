@@ -24,6 +24,7 @@ const Services = () => {
     return (
         <div>
       <h1 style={{textAlign: 'center'}}> 🅸🆂🅻🅰🅼🅸🅲 🆂🅲🅷🅾🅻🅰🆁🆂</h1>
+              <input>serch scholars</input>
 
             <section className='py-4 container'>
             <div className='row justify-content-center '>
