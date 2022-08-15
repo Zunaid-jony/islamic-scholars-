@@ -7,6 +7,10 @@ const Services = () => {
 
         const [services, setService] = useState([])
         const[modal, setModal] = useState(null)
+        const [filterValue, setFilterValue]= useState('')
+        const [searchData, setSearchData] = useState([])
+
+        
 
         // pagination
         // const [currentPage, setCurrentPage] = useState(1);
@@ -15,8 +19,23 @@ const Services = () => {
         useEffect(()=>{
             fetch('https://limitless-lowlands-32082.herokuapp.com/schedule')
             .then(responce => responce.json())
-            .then(data => setService(data))
+            .then(data => {
+                setService(data)
+                setSearchData(data)
+            
+            })
         },[])
+        const handleFilter = (e) =>{
+            if(e.target.value == ''){
+                setService(searchData)
+            }else{
+              const filterResult = searchData.filter(card  => card.scholarName.toLowerCase().includes(e.target.value.toLowerCase()
+              ))
+              setService(filterResult)
+            }
+            setFilterValue(e.target.value)
+            
+        }
         // pagi
         // const lastPostIndex = currentPage * postsPerPage;
         // const firstPostIndex = lastPostIndex - postsPerPage;
@@ -24,7 +43,10 @@ const Services = () => {
     return (
         <div>
       <h1 style={{textAlign: 'center'}}> 🅸🆂🅻🅰🅼🅸🅲 🆂🅲🅷🅾🅻🅰🆁🆂</h1>
-              <input>serch scholars</input>
+
+              <div className='container'>
+              <input  placeholder='Search' value={filterValue} onInput={(e)=> handleFilter(e)}></input>
+              </div>
 
             <section className='py-4 container'>
             <div className='row justify-content-center '>
